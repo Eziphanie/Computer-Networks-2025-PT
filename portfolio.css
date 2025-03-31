@@ -1,0 +1,64 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color:#ffffff;
+
+        }
+        header {
+            background: #b6b9bd;
+            color: #000000;
+            padding:5px;
+            font-size: 30px;
+            background-image: url(gr2.jpg);
+            background-size: 150px;
+        }
+
+        .co{
+          background-image: url(gr2.jpg);
+          background-size:150px
+        }
+
+
+        .sub{
+            background: #eff2f6;
+        }
+        .container {
+            padding: 10px;
+        }
+      
+        .content {
+            max-width: 1300px;
+            margin: auto;
+            text-align: left;
+        }
+
+        button {
+            background-color: rgb(243, 243, 243);
+            border: 5px;
+            color: #000000;
+            padding: 15px 32px;
+            margin: 4px 2px;
+    
+        }
+
+        .button-container {
+            display: flex; 
+            gap: 10px; 
+          }
+      
+          .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #eff2f6;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+          }
+      
+          .button-container button:hover {
+            background-color: #f2efea;
+            
+          }

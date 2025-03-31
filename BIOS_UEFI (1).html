@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="portfolio.css">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+ <title> Know Your PC</title>
+
+
+</head>
+<body>
+
+<header>
+        <p> <i><b> UEFI, BIOS, EEPROM, and CMOS: Key Facts</b> </i></p>  
+</header>  
+    <br>
+
+    <div class="content">
+    <div class="table">
+        <div class="row">
+            <div class="cell">
+
+<p><b style=" text-decoration: underline;"> UEFI (Unified Extensible Firmware Interface) </b> </p> 
+
+<p>UEFI replaces the older BIOS. It controls the startup process and loads the operating system into memory.
+ UEFI is faster, supports larger drives (over 2.2 TB), and offers better security against malware attacks.
+It also supports 64-bit firmware device drivers and works with both UEFI and BIOS hardware. UEFI should be regularly updated to enable new features. </p>
+
+
+<p><b style=" text-decoration: underline;"> BIOS (Basic Input/Output System)</b> </p> 
+
+<p>BIOS is older firmware that also controls the startup process and loads the operating system.
+    It's stored on a ROM chip and should be updated regularly (flashing) to support newer hardware.
+    BIOS chips vary in size from 265 KB to 1 MB, and video cards have their own BIOS known as option ROM.</p>
+
+
+    <p><b style=" text-decoration: underline;"> EEPROM (Electrically Erasable Programmable Read-Only Memory)</b> </p> 
+
+    <p>EEPROM is a non-volatile memory chip that replaced CMOS. It stores small amounts of data, such as BIOS settings, and allows data to be erased and rewritten. 
+    EEPROM chips make it possible to update BIOS/UEFI without removing any hardware.</p>
+    
+    
+    <p><b style=" text-decoration: underline;"> CMOS (Complementary Metal-Oxide Semiconductor):</b> </p> 
+
+    <p>CMOS refers to both the chip and the settings it stored, such as the boot order and hardware configurations.
+        Today, EEPROM stores this data. The CMOS battery keeps the system clock running when the computer is off. 
+        You can change CMOS settings during startup by entering the CMOS editor, usually by pressing keys like Delete, F1, or F2. 
+        Common reasons to edit CMOS include changing the boot device order, enabling/disabling devices, or setting processor speeds.
+
+  
+    </p>
+    
+
+    <b style=" text-decoration: underline;"> How BIOS/UEFI Startup Works: </b>
+
+
+    <ol type="I">
+<li>When you turn on the computer, the processor loads the BIOS/UEFI from memory.</li>
+<br>
+<li>The BIOS runs the POST (Power-On Self-Test) to check the system.</li>
+<br>
+<li> It identifies and configures hardware, using CMOS or EEPROM settings.</li>
+<br>
+<li>BIOS searches for the boot device and loads the bootloader.</li>
+<br>
+<li>BThe bootloader then loads the operating system, and the computer finishes starting up.</li>
+</ol>
+
+<br> 
+
+<i><b>Updating BIOS:</b> BIOS updates are sometimes released by the manufacturer. To update, you download the update and use a utility to "flash" the BIOS. Be sure to connect your PC to a UPS during this process to avoid damage from power loss. </i>
+                </p>
+            </div>
+        </header>  
+            <div class="cell">
+
+                <img src="bio.jpg" alt="An image of bios/uefi screen" width="20%" height="20%" class="center">
+
+                <video controls autoplay src="bios.mp4" height="20%" width="20%">
+                    <source src="bios.mp4">
+                   
+            </div>
+
+        </div>
+    </div>
+
+   
+<br>
+
+ 
+
+    <div class="table">
+        <div class="row">
+
+          
+                <div class="cell">
+
+                    <div class="button-container">
+             <a href="cases_forms.html" > <button>CASES AND FORM FACTORS </button></a>   
+                <a href="motherboard.html"> <button>MOTHERBOARD </button></a>
+             
+              
+                <a href="BIOS_UEFI.html"> <button> BIOS-UEFIS</button> </a>
+      
+                
+       
+                <a href="Memory.html"> <button>MEMORY</button> </a>  
+          
+           
+              <a href="Processors.html"> <button>CPU PROCESSORS </button></a>
+          
+              
+           
+              <a href="Ve_cards.html"class="o"> <button>VIDEO AND EXPANSION CARDS </button> </a>
+           
+        
+              <a href="cooling.html"class="o"> <button> COOLING </button> </a>
+        
+           
+            <a href="power.html"class="o"><button>POWER SUPPLY </button>  </a>
+        
+        
+</div>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <br>
+
+ </body>
+ </html>
+ 
+   
